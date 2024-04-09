@@ -7,6 +7,7 @@ using Pustak.Models;
 
 namespace Pustak.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class ProductController : Controller
     {
         private readonly AppDbContext _context;
@@ -25,6 +26,8 @@ namespace Pustak.Areas.Admin.Controllers
                                                    .ToListAsync();
             return View(products);
         }
+
+        [HttpGet]
         public async Task<IActionResult> Create(Product product)
         {
             if (_context.Products.Any(p => p.Name == product.Name))
@@ -102,6 +105,7 @@ namespace Pustak.Areas.Admin.Controllers
             return RedirectToAction("Index");
         }
 
+        [HttpPost]
         public ProductImage CreateProduct(string url, bool isHover, bool isMain, Product product)
         {
             return new ProductImage
