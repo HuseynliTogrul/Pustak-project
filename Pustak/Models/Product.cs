@@ -16,7 +16,7 @@ namespace Pustak.Models
         public IFormFile IsMain { get; set; } = null!;
         [NotMapped]
         public IFormFile IsHover { get; set; } = null!;
-        public ICollection<ProductImage>? ProductImages { get; set; }
+        public ICollection<ProductImage> ProductImages { get; set; } = null!;
         public int CategoryId { get; set; }
         public Category? category { get; set; }
     }

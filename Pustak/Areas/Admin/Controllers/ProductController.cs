@@ -1,9 +1,10 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿//using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Pustak.Data;
 using Pustak.Extensions;
 using Pustak.Models;
+using Pustok.Areas.Admin.Dtos;
 
 namespace Pustak.Areas.Admin.Controllers
 {
@@ -28,75 +29,100 @@ namespace Pustak.Areas.Admin.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Create(Product product)
+        public async Task<IActionResult> Create()
         {
-            if (_context.Products.Any(p => p.Name == product.Name))
+            ViewBag.Categories = await _context.Categories.ToListAsync();
+            return View();
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> Create(ProductCreateDto dto)
+        {
+            ViewBag.Categories = await _context.Categories.ToListAsync();
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+
+            if (_context.Products.Any(x => x.Name == dto.Name))
             {
                 ModelState.AddModelError("", "Product already exists");
-                return View(product);
+                return View(dto);
             }
-            product.ProductImages = new List<ProductImage>();
-            if (product.Files != null)
+
+            if (dto.AdditionalFiles != null)
             {
-                foreach (var file in product.Files)
+                foreach (var file in dto.AdditionalFiles)
                 {
 
                     if (!file.CheckFileSize(2))
                     {
-                        ModelState.AddModelError("Files", "Files cannot be more than 2mb");
-                        return View(product);
+                        ModelState.AddModelError("AdditionalFiles", "Files cannot be more than 2mb");
+                        return View(dto);
                     }
 
 
                     if (!file.CheckFileType("image"))
                     {
-                        ModelState.AddModelError("Files", "Files must be image type!");
-                        return View(product);
+                        ModelState.AddModelError("AdditionalFiles", "Files must be image type!");
+                        return View(dto);
                     }
-
-                    var filename = await file.SaveFileAsync(_env.WebRootPath, "client", "assets", "imgs/products");
-                    var additionalProductImages = CreateProduct(filename, false, false, product);
-
-                    product.ProductImages.Add(additionalProductImages);
-
                 }
             }
-            if (!product.IsMain.CheckFileSize(2))
+
+            if (!dto.IsMain.CheckFileSize(2))
             {
                 ModelState.AddModelError("MainFile", "Files cannot be more than 2mb");
-                return View(product);
+                return View(dto);
             }
 
 
-            if (!product.IsMain.CheckFileType("image"))
+            if (!dto.IsMain.CheckFileType("image"))
             {
                 ModelState.AddModelError("MainFile", "Files must be image type!");
-                return View(product);
+                return View(dto);
             }
 
-            var mainFileName = await product.IsMain.SaveFileAsync(_env.WebRootPath, "client", "assets", "imgs/products");
-            var mainProductImageCreate = CreateProduct(mainFileName, false, true, product);
-
-            product.ProductImages.Add(mainProductImageCreate);
-
-            if (!product.IsHover.CheckFileSize(2))
+            if (!dto.IsHover.CheckFileSize(2))
             {
                 ModelState.AddModelError("HoverFile", "Files cannot be more than 2mb");
-                return View(product);
+                return View(dto);
             }
 
 
-            if (!product.IsHover.CheckFileType("image"))
+            if (!dto.IsHover.CheckFileType("image"))
             {
                 ModelState.AddModelError("HoverFile", "Files must be image type!");
-                return View(product);
+                return View(dto);
             }
 
-            var hoverFileName = await product.IsHover.SaveFileAsync(_env.WebRootPath, "client", "assets", "imgs/products");
+
+            Product product = new()
+            {
+                Name = dto.Name,
+                Description = dto.Description,
+                SellPrice = dto.SellPrice,
+                DiscountPrice = dto.DiscountPrice,
+                Rating = dto.Rating,
+                CategoryId = dto.CategoryId
+            };
+
+            var mainFileName = await dto.IsMain.SaveFileAsync(_env.WebRootPath, "Client", "image", "products");
+            var mainProductImageCreate = CreateProduct(mainFileName, false, true, product);
+            product.ProductImages.Add(mainProductImageCreate);
+
+
+            var hoverFileName = await dto.IsHover.SaveFileAsync(_env.WebRootPath, "client", "image", "products");
             var hoverProductImageCreate = CreateProduct(hoverFileName, true, false, product);
             product.ProductImages.Add(hoverProductImageCreate);
 
-
+            foreach (var file in dto.AdditionalFiles)
+            {
+                var filename = await file.SaveFileAsync(_env.WebRootPath, "Client", "image", "products");
+                var additionalProductImgs = CreateProduct(filename, false, false, product);
+                product.ProductImages.Add(additionalProductImgs);
+            }
 
             await _context.Products.AddAsync(product);
 
@@ -104,6 +130,7 @@ namespace Pustak.Areas.Admin.Controllers
 
             return RedirectToAction("Index");
         }
+
 
         [HttpPost]
         public ProductImage CreateProduct(string url, bool isHover, bool isMain, Product product)

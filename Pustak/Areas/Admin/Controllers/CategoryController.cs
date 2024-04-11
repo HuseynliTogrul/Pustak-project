@@ -31,21 +31,21 @@ namespace Pustak.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Category category)
         {
-            if (ModelState["Name"] == null ||
-                ModelState["File"] == null) return View(category);
+            //if (ModelState["Name"] == null ||
+            //    ModelState["File"] == null) return View(category);
 
-            if (!category.File.CheckFileType("image"))
-            {
-                ModelState.AddModelError("", "Invalid File");
-                return View(category);
-            }
-            if (!category.File.CheckFileSize(2))
-            {
-                ModelState.AddModelError("", "Invalid File Size");
-                return View(category);
-            }
+            //if (!category.File.CheckFileType("image"))
+            //{
+            //    ModelState.AddModelError("", "Invalid File");
+            //    return View(category);
+            //}
+            //if (!category.File.CheckFileSize(2))
+            //{
+            //    ModelState.AddModelError("", "Invalid File Size");
+            //    return View(category);
+            //}
 
-            string uniqueFileName = await category.File.SaveFileAsync(_env.WebRootPath, "client", "assets", "categoryIcons");
+            //string uniqueFileName = await category.File.SaveFileAsync(_env.WebRootPath, "client", "assets", "categoryIcons");
 
             Category newCategory = new Category
             {
@@ -77,27 +77,27 @@ namespace Pustak.Areas.Admin.Controllers
             if (id != category.Id) return BadRequest();
             Category? existsCategory = await _context.Categories.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
             if (existsCategory == null) return NotFound();
-            if (category.File != null)
-            {
-                if (!category.File.CheckFileSize(2))
-                {
-                    ModelState.AddModelError("File", "File size more than 2mb");
-                    return View(category);
-                }
-                if (!category.File.CheckFileType("image"))
-                {
-                    ModelState.AddModelError("File", "File type is incorrect");
-                    return View(category);
-                }
+            //if (category.File != null)
+            //{
+            //    if (!category.File.CheckFileSize(2))
+            //    {
+            //        ModelState.AddModelError("File", "File size more than 2mb");
+            //        return View(category);
+            //    }
+            //    if (!category.File.CheckFileType("image"))
+            //    {
+            //        ModelState.AddModelError("File", "File type is incorrect");
+            //        return View(category);
+            //    }
 
-                //category.File.DeleteFile(_env.WebRootPath, "client", "assets", "categoryIcons", existsCategory.Icon);
+            //    //category.File.DeleteFile(_env.WebRootPath, "client", "assets", "categoryIcons", existsCategory.Icon);
 
-                //var uniqueFileName = await category.File.
-                //    SaveFileAsync(_env.WebRootPath, "client", "assets", "categoryIcons");
+            //    //var uniqueFileName = await category.File.
+            //    //    SaveFileAsync(_env.WebRootPath, "client", "assets", "categoryIcons");
 
-                existsCategory.Name = category.Name;
-                _context.Update(existsCategory);
-            }
+            //    existsCategory.Name = category.Name;
+            //    _context.Update(existsCategory);
+            //}
             else
             {
                 _context.Categories.Update(category);

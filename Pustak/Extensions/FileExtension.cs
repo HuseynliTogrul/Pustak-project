@@ -2,10 +2,10 @@
 {
     public static class FileExtension
     {
-        public static async Task<string> SaveFileAsync(this IFormFile file, string root, string client, string assets, string folderName)
+        public static async Task<string> SaveFileAsync(this IFormFile file, string root, string client, string image, string folderName)
         {
             string uniqueFileName = Guid.NewGuid().ToString() + "_" + file.FileName;
-            string path = Path.Combine(root, client, assets, folderName, uniqueFileName);
+            string path = Path.Combine(root, client, image, folderName, uniqueFileName);
 
 
             using FileStream fs = new FileStream(path, FileMode.Create);
@@ -14,7 +14,6 @@
 
             return uniqueFileName;
         }
-
 
         public static bool CheckFileType(this IFormFile file, string fileType)
         {
@@ -34,9 +33,9 @@
             return true;
         }
 
-        public static void DeleteFile(this IFormFile file, string root, string client, string assets, string folderName, string fileName)
+        public static void DeleteFile(this string fileName, string root, string client, string image, string folderName)
         {
-            string path = Path.Combine(root, client, assets, folderName, fileName);
+            string path = Path.Combine(root, client, image, folderName, fileName);
             if (System.IO.File.Exists(path))
             {
                 System.IO.File.Delete(path);

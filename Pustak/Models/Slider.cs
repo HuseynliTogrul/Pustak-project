@@ -12,8 +12,7 @@ namespace Pustak.Models
         public ICollection<IFormFile>? Files { get; set; }
         [NotMapped]
         public IFormFile MainFile { get; set; } = null!;
-        [NotMapped]
-        public IFormFile HoverFile { get; set; } = null!;
         public ICollection<ProductImage>? ProductImages { get; set; }
+        public string ImagePath { get; set; } = null!;
     }
 }
