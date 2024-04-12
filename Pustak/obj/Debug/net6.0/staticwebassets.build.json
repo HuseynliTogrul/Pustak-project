@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uQy/NFg59Se6syQupKRyNn0CdgOW1GgXE8XO3pjkfaI=",
+  "Hash": "T2SOiioPHf03L5Ghe9BScH6Po4VwysbEo0g9OlDollw=",
   "Source": "Pustak",
   "BasePath": "_content/Pustak",
   "Mode": "Default",
@@ -33182,6 +33182,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Client\\image\\products\\harryPotter.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\labirint.jpg",
+      "SourceId": "Pustak",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Pustak-project\\Pustak\\wwwroot\\",
+      "BasePath": "_content/Pustak",
+      "RelativePath": "Client/image/products/labirint.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Client\\image\\products\\labirint.jpg"
     },
     {
       "Identity": "C:\\Users\\acer\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\product-1.jpg",
