@@ -105,12 +105,18 @@ namespace Pustak.Areas.Admin.Controllers
                 SellPrice = dto.SellPrice,
                 DiscountPrice = dto.DiscountPrice,
                 Rating = dto.Rating,
-                CategoryId = dto.CategoryId
+                CategoryId = dto.CategoryId,
+                ProductImages = null
             };
 
             var mainFileName = await dto.IsMain.SaveFileAsync(_env.WebRootPath, "Client", "image", "products");
             var mainProductImageCreate = CreateProduct(mainFileName, false, true, product);
-            product.ProductImages.Add(mainProductImageCreate);
+
+            List<ProductImage> productImage = new();
+
+            productImage.Add(mainProductImageCreate);
+
+            product.ProductImages = productImage;
 
 
             var hoverFileName = await dto.IsHover.SaveFileAsync(_env.WebRootPath, "client", "image", "products");

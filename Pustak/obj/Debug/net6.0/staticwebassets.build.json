@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T2SOiioPHf03L5Ghe9BScH6Po4VwysbEo0g9OlDollw=",
+  "Hash": "W5wv1ajUnRswI2Zu2nV+fLgZmCFmoYwxjjlzmGHuhZk=",
   "Source": "Pustak",
   "BasePath": "_content/Pustak",
   "Mode": "Default",
@@ -33029,6 +33029,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Client\\image\\products\\582ee12b-2003-46e3-9240-4f9be0f2c27e_harryPotter.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\80bfda8c-1a82-4745-a209-13f5dfbce002_2d8918e2-6769-4002-b0f2-9b15bf670d7e_harryPotter.jpg",
+      "SourceId": "Pustak",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Pustak-project\\Pustak\\wwwroot\\",
+      "BasePath": "_content/Pustak",
+      "RelativePath": "Client/image/products/80bfda8c-1a82-4745-a209-13f5dfbce002_2d8918e2-6769-4002-b0f2-9b15bf670d7e_harryPotter.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Client\\image\\products\\80bfda8c-1a82-4745-a209-13f5dfbce002_2d8918e2-6769-4002-b0f2-9b15bf670d7e_harryPotter.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\8e6be5d4-9950-4cb0-8abc-3b5ecfe99f79_b3687425-0b38-46b1-a736-b04435277c92_harryPotter.jpg",
+      "SourceId": "Pustak",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Pustak-project\\Pustak\\wwwroot\\",
+      "BasePath": "_content/Pustak",
+      "RelativePath": "Client/image/products/8e6be5d4-9950-4cb0-8abc-3b5ecfe99f79_b3687425-0b38-46b1-a736-b04435277c92_harryPotter.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Client\\image\\products\\8e6be5d4-9950-4cb0-8abc-3b5ecfe99f79_b3687425-0b38-46b1-a736-b04435277c92_harryPotter.jpg"
     },
     {
       "Identity": "C:\\Users\\acer\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\921afb71-718f-4f9b-8a0a-ce3e20615113_harryPotter.jpg",
