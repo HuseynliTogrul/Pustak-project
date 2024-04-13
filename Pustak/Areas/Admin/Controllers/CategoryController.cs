@@ -101,7 +101,6 @@ namespace Pustak.Areas.Admin.Controllers
             else
             {
                 _context.Categories.Update(category);
-
             }
             await _context.SaveChangesAsync();
             if (category.Name == null)
@@ -121,7 +120,7 @@ namespace Pustak.Areas.Admin.Controllers
             }
             //category.File.DeleteFile(_env.WebRootPath, "client", "assets", "categoryIcons", existsCategory.Icon);
 
-            category.IsDeleted = true; // soft delete
+            category.IsDeleted = true;
             await _context.SaveChangesAsync();
 
             var categories = await _context.Categories.Include(x => x.Products).Where(x => !x.IsDeleted).ToListAsync();

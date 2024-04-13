@@ -1,66 +1,51 @@
 ﻿@model ProductUpdateDto
 
-<form method="post" enctype="multipart/form-data">
+<form method="post" enctype="multipart/form-data" class="ml-4 mr-4">
     <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Name</label>
         <input type="text" asp-for="Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        @* <div class="form-text">We'll never share your email with anyone else.</div> *@
         <span asp-validation-for="Name" class="text-danger"></span>
     </div>
     <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Price</label>
+        <label for="exampleInputEmail1" class="form-label">SellPrice</label>
         <input type="text" asp-for="SellPrice" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        @* <div class="form-text">We'll never share your email with anyone else.</div> *@
         <span asp-validation-for="SellPrice" class="text-danger"></span>
     </div>
     <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Rating</label>
+        <label for="exampleInputEmail1" class="form-label">DiscountPrice</label>
         <input type="text" asp-for="DiscountPrice" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        @* <div class="form-text">We'll never share your email with anyone else.</div> *@
         <span asp-validation-for="DiscountPrice" class="text-danger"></span>
     </div>
     <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Is it in stock? </label>
-        <input type="checkbox" asp-for="Rating" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        @* <div class="form-text">We'll never share your email with anyone else.</div> *@
+        <label for="exampleInputEmail1" class="form-label">Rating</label>
+        <input type="number" asp-for="Rating" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         <span asp-validation-for="Rating" class="text-danger"></span>
     </div>
     <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Discount </label>
         <input type="number" asp-for="Discount" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        @* <div class="form-text">We'll never share your email with anyone else.</div> *@
         <span asp-validation-for="Discount" class="text-danger"></span>
     </div>
     <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Short Description </label>
+        <label for="exampleInputEmail1" class="form-label">Description </label>
         <input type="text" asp-for="Description" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        @* <div class="form-text">We'll never share your email with anyone else.</div> *@
         <span asp-validation-for="Description" class="text-danger"></span>
     </div>
     <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Main File</label>
-        <input asp-for="IsMain" class="form-control" id="exampleInputPassword1">
+        <input asp-for="IsMain" class="form-control p-1" id="exampleInputPassword1">
         <span asp-validation-for="IsMain" class="text-danger"></span>
     </div>
-    <img src="~/assets/image/productImgs/@Model.MainFilePath" style="width:150px" />
-    <input type="hidden" asp-for="MainFilePath" />
     <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Hover File</label>
-        <input asp-for="IsHover" class="form-control" id="exampleInputPassword1">
+        <input asp-for="IsHover" class="form-control p-1" id="exampleInputPassword1">
         <span asp-validation-for="IsHover" class="text-danger"></span>
     </div>
-    <img src="~/assets/image/productImgs/@Model.HoverFilePath" style="width:150px" />
-    <input type="hidden" asp-for="HoverFilePath" />
     <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Additional Files</label>
-        <input asp-for="AdditionalFiles" class="form-control" id="exampleInputPassword1">
+        <input asp-for="AdditionalFiles" class="form-control p-1" id="exampleInputPassword1">
         <span asp-validation-for="AdditionalFiles" class="text-danger"></span>
     </div>
-    @foreach (var item in Model.AdditionalFilePaths)
-    {
-        <img src="~/assets/image/productImgs/@item" style="width:150px" />
-        <input type="hidden" asp-for="AdditionalFilePaths" />
-    }
     <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Category</label>
         <select asp-for="CategoryId" asp-items="@(new SelectList(ViewBag.Categories,nameof(Category.Id),nameof(Category.Name)))" class="form-control">

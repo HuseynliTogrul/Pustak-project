@@ -40,7 +40,6 @@
                                             <td>@product.SellPrice</td>
                                             <td>@product.DiscountPrice</td>
                                             <td>@product.category.Name</td>
-                                            @* <td><a class="btn btn-danger" asp-controller="Product" asp-action="Delete" asp-route-id="@product.Id" asp-area="Admin">Delete</a></td> *@
                                             <td><a class="btn btn-warning" asp-controller="Product" asp-action="Edit" asp-route-id="@product.Id" asp-area="Admin">Edit</a></td>
                                             <td><a class="btn btn-danger" asp-controller="Product" asp-action="Delete" asp-route-id="@product.Id" asp-area="Admin">Delete</a></td>
                                         </tr>

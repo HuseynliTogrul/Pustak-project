@@ -33,9 +33,9 @@
             return true;
         }
 
-        public static void DeleteFile(this string fileName, string root, string client, string image, string folderName)
+        public static void DeleteFile(this string fileName, string root, string Client, string image, string folderName)
         {
-            string path = Path.Combine(root, client, image, folderName, fileName);
+            string path = Path.Combine(root, Client, image, folderName, fileName);
             if (System.IO.File.Exists(path))
             {
                 System.IO.File.Delete(path);

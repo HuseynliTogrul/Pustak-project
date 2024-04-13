@@ -19,7 +19,6 @@ namespace Pustak.Areas.Admin.Controllers
         }
         public async Task<IActionResult> Index()
         {
-
             var sliders = await _context.Slider.ToListAsync();
             return View(sliders);
         }
@@ -104,9 +103,9 @@ namespace Pustak.Areas.Admin.Controllers
                     ModelState.AddModelError("File", "Invalid File Size");
                     return View(dto);
                 }
-                existSlider.ImagePath.DeleteFile(_env.WebRootPath, "Client", "image", "icon");
+                existSlider.ImagePath.DeleteFile(_env.WebRootPath, "Client", "image", "products");
 
-                var uniqueFileName = await dto.File.SaveFileAsync(_env.WebRootPath, "Client", "image", "icon");
+                var uniqueFileName = await dto.File.SaveFileAsync(_env.WebRootPath, "Client", "image", "products");
                 existSlider.ImagePath = uniqueFileName;
             }
             existSlider.Description = dto.Description;

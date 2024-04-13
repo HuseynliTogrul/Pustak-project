@@ -39,10 +39,9 @@
                                             <td><img width="100" src="~/Client/image/products/@slider.ImagePath" /></td>
                                             <td>@slider.Name</td>
                                             <td>@slider.Description</td>
-                                            <td>@slider.Price</td>@* 
-                                            <td><a class="btn btn-danger" asp-controller="Slider" asp-action="Delete" asp-route-id="@slider.Id" asp-area="Admin">Delete</a></td> *@
-                                            <td><a class="btn btn-primary" asp-controller="Slider" asp-action="Create" asp-route-id="@slider.Id" asp-area="Admin">Create</a></td>
+                                            <td>@slider.Price</td>
                                             <td><a class="btn btn-warning" asp-controller="Slider" asp-action="Update" asp-route-id="@slider.Id" asp-area="Admin">Edit</a></td>
+                                            <td><a class="btn btn-danger" asp-controller="Slider" asp-action="Delete" asp-route-id="@slider.Id" asp-area="Admin">Delete</a></td>
                                         </tr>
                                     }
                                 </tbody>
