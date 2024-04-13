@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W5wv1ajUnRswI2Zu2nV+fLgZmCFmoYwxjjlzmGHuhZk=",
+  "Hash": "4dAyLR01jw5ues64cAXgmIHE6Gtje2S1m9nmNmpmrgg=",
   "Source": "Pustak",
   "BasePath": "_content/Pustak",
   "Mode": "Default",
@@ -32946,6 +32946,23 @@
       "OriginalItemSpec": "wwwroot\\Client\\image\\others\\home-side-promo.jpg"
     },
     {
+      "Identity": "C:\\Users\\acer\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\1fcec11d-79cd-466d-b13e-b296192ee3da_cart-product-1.jpg",
+      "SourceId": "Pustak",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Pustak-project\\Pustak\\wwwroot\\",
+      "BasePath": "_content/Pustak",
+      "RelativePath": "Client/image/products/1fcec11d-79cd-466d-b13e-b296192ee3da_cart-product-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Client\\image\\products\\1fcec11d-79cd-466d-b13e-b296192ee3da_cart-product-1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\acer\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\2d8918e2-6769-4002-b0f2-9b15bf670d7e_harryPotter.jpg",
       "SourceId": "Pustak",
       "SourceType": "Discovered",
@@ -33031,6 +33048,40 @@
       "OriginalItemSpec": "wwwroot\\Client\\image\\products\\582ee12b-2003-46e3-9240-4f9be0f2c27e_harryPotter.jpg"
     },
     {
+      "Identity": "C:\\Users\\acer\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\68d9785b-d18e-4c18-9d2e-c54ea13904a6_2e597ce1-c8ae-41a4-b95a-e62e4b04fcdc_harryPotter.jpg",
+      "SourceId": "Pustak",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Pustak-project\\Pustak\\wwwroot\\",
+      "BasePath": "_content/Pustak",
+      "RelativePath": "Client/image/products/68d9785b-d18e-4c18-9d2e-c54ea13904a6_2e597ce1-c8ae-41a4-b95a-e62e4b04fcdc_harryPotter.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Client\\image\\products\\68d9785b-d18e-4c18-9d2e-c54ea13904a6_2e597ce1-c8ae-41a4-b95a-e62e4b04fcdc_harryPotter.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\77c4f444-02f3-40d8-8f21-26188d96378b_8e6be5d4-9950-4cb0-8abc-3b5ecfe99f79_b3687425-0b38-46b1-a736-b04435277c92_harryPotter.jpg",
+      "SourceId": "Pustak",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Pustak-project\\Pustak\\wwwroot\\",
+      "BasePath": "_content/Pustak",
+      "RelativePath": "Client/image/products/77c4f444-02f3-40d8-8f21-26188d96378b_8e6be5d4-9950-4cb0-8abc-3b5ecfe99f79_b3687425-0b38-46b1-a736-b04435277c92_harryPotter.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Client\\image\\products\\77c4f444-02f3-40d8-8f21-26188d96378b_8e6be5d4-9950-4cb0-8abc-3b5ecfe99f79_b3687425-0b38-46b1-a736-b04435277c92_harryPotter.jpg"
+    },
+    {
       "Identity": "C:\\Users\\acer\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\80bfda8c-1a82-4745-a209-13f5dfbce002_2d8918e2-6769-4002-b0f2-9b15bf670d7e_harryPotter.jpg",
       "SourceId": "Pustak",
       "SourceType": "Discovered",
@@ -33080,6 +33131,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Client\\image\\products\\921afb71-718f-4f9b-8a0a-ce3e20615113_harryPotter.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\ab32a146-ebb0-4acb-819f-fd9ab09d1498_2d8918e2-6769-4002-b0f2-9b15bf670d7e_harryPotter.jpg",
+      "SourceId": "Pustak",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Pustak-project\\Pustak\\wwwroot\\",
+      "BasePath": "_content/Pustak",
+      "RelativePath": "Client/image/products/ab32a146-ebb0-4acb-819f-fd9ab09d1498_2d8918e2-6769-4002-b0f2-9b15bf670d7e_harryPotter.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Client\\image\\products\\ab32a146-ebb0-4acb-819f-fd9ab09d1498_2d8918e2-6769-4002-b0f2-9b15bf670d7e_harryPotter.jpg"
     },
     {
       "Identity": "C:\\Users\\acer\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\b3687425-0b38-46b1-a736-b04435277c92_harryPotter.jpg",
@@ -33165,6 +33233,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Client\\image\\products\\d3eac10e-cc2a-4d47-aca5-8b89c6b447f6_harryPotter.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\acer\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\dc77b061-6d45-4636-9c9c-cd25cecf27c8_b3687425-0b38-46b1-a736-b04435277c92_harryPotter.jpg",
+      "SourceId": "Pustak",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\acer\\Desktop\\Pustak-project\\Pustak\\wwwroot\\",
+      "BasePath": "_content/Pustak",
+      "RelativePath": "Client/image/products/dc77b061-6d45-4636-9c9c-cd25cecf27c8_b3687425-0b38-46b1-a736-b04435277c92_harryPotter.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Client\\image\\products\\dc77b061-6d45-4636-9c9c-cd25cecf27c8_b3687425-0b38-46b1-a736-b04435277c92_harryPotter.jpg"
     },
     {
       "Identity": "C:\\Users\\acer\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\dd2db138-e3d1-4872-be06-a64860b934a0_harryPotter.jpg",
