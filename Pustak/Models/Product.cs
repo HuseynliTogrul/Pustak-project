@@ -19,7 +19,7 @@ namespace Pustak.Models
         public ICollection<ProductImage> ProductImages { get; set; } = null!;
         public int CategoryId { get; set; }
         public Category? category { get; set; }
-        //public int BrandId { get; set; }
-        //public Brand? Brand { get; set; }
+        public int BrandId { get; set; }
+        public Brand? Brand { get; set; }
     }
 }

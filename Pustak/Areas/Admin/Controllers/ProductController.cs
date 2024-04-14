@@ -24,7 +24,7 @@ namespace Pustak.Areas.Admin.Controllers
             List<Product> products = await _context.Products
                                                    .Include(x => x.ProductImages)
                                                    .Include(x => x.category)
-                                                   //.Include(x=>x.Brand)
+                                                   .Include(x => x.Brand)
                                                    .ToListAsync();
             return View(products);
         }

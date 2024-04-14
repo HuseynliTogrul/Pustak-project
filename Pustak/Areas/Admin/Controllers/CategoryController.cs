@@ -20,7 +20,9 @@ namespace Pustak.Areas.Admin.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var categories = await _context.Categories.Include(x => x.Products).Where(x => !x.IsDeleted).ToListAsync();
+            var categories = await _context.Categories
+                .Include(x => x.Products)
+                .Where(x => !x.IsDeleted).ToListAsync();
             return View(categories);
         }
         [HttpGet]
