@@ -11,6 +11,9 @@ namespace Pustak.Data
         public DbSet<Category> Categories { get; set; }
         public DbSet<ProductImage> ProductsImage { get; set; }
         public DbSet<Slider> Slider { get; set; }
+        public DbSet<Tag> Tags { get; set; }
+        public DbSet<Brand> Brands { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -24,6 +24,7 @@ namespace Pustak.Areas.Admin.Controllers
             List<Product> products = await _context.Products
                                                    .Include(x => x.ProductImages)
                                                    .Include(x => x.category)
+                                                   //.Include(x=>x.Brand)
                                                    .ToListAsync();
             return View(products);
         }
@@ -208,6 +209,25 @@ namespace Pustak.Areas.Admin.Controllers
                 return View(dto);
             }
 
+            foreach (var file in dto.AdditionalFiles)
+            {
+
+                if (!file.CheckFileSize(2))
+                {
+                    ModelState.AddModelError("AdditionalFiles", "Files cannot be more than 2mb");
+                    return View(dto);
+                }
+
+
+                if (!file.CheckFileType("image"))
+                {
+                    ModelState.AddModelError("AdditionalFiles", "Files must be image type!");
+                    return View(dto);
+                }
+
+
+            }
+
             if (dto.AdditionalFiles is not null)
             {
                 foreach (var file in dto.AdditionalFiles)
@@ -278,7 +298,6 @@ namespace Pustak.Areas.Admin.Controllers
                 }
             }
 
-
             if (dto.IsMain is not null)
             {
                 existProduct.ProductImages.FirstOrDefault(x => x.IsMain)?.Url.DeleteFile(_env.WebRootPath, "Client", "image", "producs");
@@ -321,6 +340,21 @@ namespace Pustak.Areas.Admin.Controllers
             _context.Products.Update(product);
             await _context.SaveChangesAsync();
             return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> Detail(int id)
+        {
+
+            var existProduct = await _context.Products.FirstOrDefaultAsync(x => x.Id == id);
+            if (existProduct is null) return BadRequest();
+
+
+            var product = await _context.Products.Include(x => x.category)
+                                                 .Include(x => x.ProductImages)
+                                                 //.Include(x => x.Brand)
+                                                 .FirstOrDefaultAsync(x => x.Id == id);
+            if (product is null) return NotFound();
+            return View(product);
         }
     }
 }
