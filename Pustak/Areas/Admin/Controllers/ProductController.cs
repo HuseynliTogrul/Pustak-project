@@ -24,7 +24,7 @@ namespace Pustak.Areas.Admin.Controllers
             List<Product> products = await _context.Products
                                                    .Include(x => x.ProductImages)
                                                    .Include(x => x.category)
-                                                   .Include(x => x.Brand)
+                                                   .Include(x => x.Brand).Where(p=> p.IsDeleted == false)
                                                    .ToListAsync();
             return View(products);
         }
@@ -106,7 +106,8 @@ namespace Pustak.Areas.Admin.Controllers
                 DiscountPrice = dto.DiscountPrice,
                 Rating = dto.Rating,
                 CategoryId = dto.CategoryId,
-                ProductImages = null
+                ProductImages = null,
+                BrandId = 1
             };
 
             var mainFileName = await dto.IsMain.SaveFileAsync(_env.WebRootPath, "Client", "image", "products");
