@@ -24,7 +24,8 @@ namespace Pustak.Areas.Admin.Controllers
             List<Product> products = await _context.Products
                                                    .Include(x => x.ProductImages)
                                                    .Include(x => x.category)
-                                                   .Include(x => x.Brand).Where(p=> p.IsDeleted == false)
+                                                   .Include(x => x.Brand)
+                                                   .Where(x => !x.IsDeleted)
                                                    .ToListAsync();
             return View(products);
         }
@@ -149,7 +150,6 @@ namespace Pustak.Areas.Admin.Controllers
                 Product = product
             };
         }
-
 
         public async Task<IActionResult> Edit(int id)
         {

@@ -21,8 +21,9 @@ namespace Pustak.Areas.Admin.Controllers
         public async Task<IActionResult> Index()
         {
             var categories = await _context.Categories
-                .Include(x => x.Products)
-                .Where(x => !x.IsDeleted).ToListAsync();
+                                    .Include(x => x.Products)
+                                    .Where(x => !x.IsDeleted)
+                                    .ToListAsync();
             return View(categories);
         }
         [HttpGet]
@@ -72,7 +73,6 @@ namespace Pustak.Areas.Admin.Controllers
             }
             return View(category);
         }
-
 
         public async Task<IActionResult> Update(int id, Category category)
         {
