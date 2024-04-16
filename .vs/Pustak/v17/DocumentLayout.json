@@ -3,44 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|c:\\users\\nihatcha\\desktop\\pustak-project\\pustak\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|solutionrelative:pustak\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|c:\\users\\nihatcha\\desktop\\pustak-project\\pustak\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|solutionrelative:pustak\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|c:\\users\\nihatcha\\desktop\\pustak-project\\pustak\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|solutionrelative:pustak\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|c:\\users\\nihatcha\\desktop\\pustak-project\\pustak\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|solutionrelative:pustak\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|c:\\users\\nihatcha\\desktop\\pustak-project\\pustak\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|solutionrelative:pustak\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|c:\\users\\nihatcha\\desktop\\pustak-project\\pustak\\areas\\admin\\dto\\productdtos\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|solutionrelative:pustak\\areas\\admin\\dto\\productdtos\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|c:\\users\\nihatcha\\desktop\\pustak-project\\pustak\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|solutionrelative:pustak\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|c:\\users\\nihatcha\\desktop\\pustak-project\\pustak\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|solutionrelative:pustak\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|c:\\users\\nihatcha\\desktop\\pustak-project\\pustak\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|solutionrelative:pustak\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|c:\\users\\nihatcha\\desktop\\pustak-project\\pustak\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|solutionrelative:pustak\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|c:\\users\\nihatcha\\desktop\\pustak-project\\pustak\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|solutionrelative:pustak\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|c:\\users\\nihatcha\\desktop\\pustak-project\\pustak\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|solutionrelative:pustak\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|c:\\users\\nihatcha\\desktop\\pustak-project\\pustak\\migrations\\20240415133742_ibit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6593FD6E-3A5E-4C7A-8BEA-3F3E888B548F}|Pustak\\Pustak.csproj|solutionrelative:pustak\\migrations\\20240415133742_ibit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,72 +26,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Pustak\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Pustak\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAE0BAAAAAAAAAAAwwFUBAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T13:20:28.365Z",
-              "IsPinned": true
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pustak\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Pustak\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T13:09:14.603Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProductUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Areas\\Admin\\Dto\\ProductDtos\\ProductUpdateDto.cs",
-              "RelativeDocumentMoniker": "Pustak\\Areas\\Admin\\Dto\\ProductDtos\\ProductUpdateDto.cs",
-              "ToolTip": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Areas\\Admin\\Dto\\ProductDtos\\ProductUpdateDto.cs",
-              "RelativeToolTip": "Pustak\\Areas\\Admin\\Dto\\ProductDtos\\ProductUpdateDto.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAABUAAAAcAAAA",
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Pustak\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Models\\Category.cs",
+              "RelativeToolTip": "Pustak\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T13:43:00.11Z"
+              "WhenOpened": "2024-04-16T11:13:20.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pustak\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pustak\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAALwAAAAAAAAAAAAAAMwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T11:08:30.924Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Pustak\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
-              "RelativeToolTip": "Pustak\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-15T13:42:23.086Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SliderController.cs",
-              "DocumentMoniker": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "RelativeDocumentMoniker": "Pustak\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "ToolTip": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "RelativeToolTip": "Pustak\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T13:40:56.995Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Pustak\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Pustak\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T13:40:54.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\appsettings.json",
               "RelativeDocumentMoniker": "Pustak\\appsettings.json",
@@ -125,54 +79,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-04-15T13:39:27.882Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20240415133742_ibit.cs",
-              "DocumentMoniker": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Migrations\\20240415133742_ibit.cs",
-              "RelativeDocumentMoniker": "Pustak\\Migrations\\20240415133742_ibit.cs",
-              "ToolTip": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Migrations\\20240415133742_ibit.cs",
-              "RelativeToolTip": "Pustak\\Migrations\\20240415133742_ibit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T13:37:42.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Program.cs",
-              "RelativeDocumentMoniker": "Pustak\\Program.cs",
-              "ToolTip": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Program.cs",
-              "RelativeToolTip": "Pustak\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T13:37:23.831Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Pustak\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Models\\Product.cs",
-              "RelativeToolTip": "Pustak\\Models\\Product.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAmwAsAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T13:37:17.744Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Brand.cs",
-              "DocumentMoniker": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Models\\Brand.cs",
-              "RelativeDocumentMoniker": "Pustak\\Models\\Brand.cs",
-              "ToolTip": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\Models\\Brand.cs",
-              "RelativeToolTip": "Pustak\\Models\\Brand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T13:37:12.655Z"
             }
           ]
         }

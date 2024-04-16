@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿@{
+    var categories = ViewData["Categories"] as List<Category>;
+}
+
+
+<!DOCTYPE html>
 <html lang="zxx">
 
 
@@ -193,10 +198,13 @@
                         <div class="col-lg-3">
                             <nav class="category-nav   ">
                                 <div>
-                                    <a href="javascript:void(0)" class="category-trigger">
-                                        <i class="fa fa-bars"></i>
-                                        Browse categories
-                                    </a>
+                                    @foreach (var category in categories)
+                                    {
+                                        <a href="javascript:void(0)" class="category-trigger">
+                                            <i class="fa fa-bars"></i>
+                                            @category
+                                        </a>
+                                    }
                                     <ul class="category-menu">
                                         <li class="cat-item has-children">
                                             <a href="#">Arts & Photography</a>

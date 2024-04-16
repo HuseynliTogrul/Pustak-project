@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pustak")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5a95a16b7683f1d39ca0b1d6b9a02c319872fc7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c10cd8fa41d942a4cd58f872dc9113b44f83405b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pustak")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pustak")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

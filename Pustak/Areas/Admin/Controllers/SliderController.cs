@@ -7,6 +7,8 @@ using Pustok.Areas.Admin.Dtos;
 
 namespace Pustak.Areas.Admin.Controllers
 {
+
+    [Area("Admin")]
     public class SliderController : Controller
     {
         private readonly AppDbContext _context;

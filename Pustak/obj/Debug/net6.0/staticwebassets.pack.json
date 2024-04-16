@@ -7745,6 +7745,10 @@
       "PackagePath": "staticwebassets\\Client\\image\\others\\home-side-promo.jpg"
     },
     {
+      "Id": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\01170db4-9f3c-4d26-9d68-beade706017d_1fcec11d-79cd-466d-b13e-b296192ee3da_cart-product-1.jpg",
+      "PackagePath": "staticwebassets\\Client\\image\\products\\01170db4-9f3c-4d26-9d68-beade706017d_1fcec11d-79cd-466d-b13e-b296192ee3da_cart-product-1.jpg"
+    },
+    {
       "Id": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\095e3393-2580-4798-ba23-886010be7010_2e597ce1-c8ae-41a4-b95a-e62e4b04fcdc_harryPotter.jpg",
       "PackagePath": "staticwebassets\\Client\\image\\products\\095e3393-2580-4798-ba23-886010be7010_2e597ce1-c8ae-41a4-b95a-e62e4b04fcdc_harryPotter.jpg"
     },
@@ -7755,6 +7759,10 @@
     {
       "Id": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\1fcec11d-79cd-466d-b13e-b296192ee3da_cart-product-1.jpg",
       "PackagePath": "staticwebassets\\Client\\image\\products\\1fcec11d-79cd-466d-b13e-b296192ee3da_cart-product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\258a2b87-e172-42aa-b614-2120af870322_38b0e1a9-5c6a-4ed8-8836-96558c24af52_5c9eca09-3cd0-452c-9442-e9ea773beb09_product-1.jpg",
+      "PackagePath": "staticwebassets\\Client\\image\\products\\258a2b87-e172-42aa-b614-2120af870322_38b0e1a9-5c6a-4ed8-8836-96558c24af52_5c9eca09-3cd0-452c-9442-e9ea773beb09_product-1.jpg"
     },
     {
       "Id": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\29dbdbae-2379-46a8-8935-ae45394c8344_2d8918e2-6769-4002-b0f2-9b15bf670d7e_harryPotter.jpg",
@@ -7785,12 +7793,20 @@
       "PackagePath": "staticwebassets\\Client\\image\\products\\50206e8c-6ce5-40f9-950a-c572e15af7b5_1fcec11d-79cd-466d-b13e-b296192ee3da_cart-product-1.jpg"
     },
     {
+      "Id": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\517bf610-6d39-4f64-b5b5-12e710767780_29dbdbae-2379-46a8-8935-ae45394c8344_2d8918e2-6769-4002-b0f2-9b15bf670d7e_harryPotter.jpg",
+      "PackagePath": "staticwebassets\\Client\\image\\products\\517bf610-6d39-4f64-b5b5-12e710767780_29dbdbae-2379-46a8-8935-ae45394c8344_2d8918e2-6769-4002-b0f2-9b15bf670d7e_harryPotter.jpg"
+    },
+    {
       "Id": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\582ee12b-2003-46e3-9240-4f9be0f2c27e_harryPotter.jpg",
       "PackagePath": "staticwebassets\\Client\\image\\products\\582ee12b-2003-46e3-9240-4f9be0f2c27e_harryPotter.jpg"
     },
     {
       "Id": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\5c9eca09-3cd0-452c-9442-e9ea773beb09_product-1.jpg",
       "PackagePath": "staticwebassets\\Client\\image\\products\\5c9eca09-3cd0-452c-9442-e9ea773beb09_product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\5f73e17c-d786-422c-a956-a2c2d565f5e1_68d9785b-d18e-4c18-9d2e-c54ea13904a6_2e597ce1-c8ae-41a4-b95a-e62e4b04fcdc_harryPotter.jpg",
+      "PackagePath": "staticwebassets\\Client\\image\\products\\5f73e17c-d786-422c-a956-a2c2d565f5e1_68d9785b-d18e-4c18-9d2e-c54ea13904a6_2e597ce1-c8ae-41a4-b95a-e62e4b04fcdc_harryPotter.jpg"
     },
     {
       "Id": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\62564226-a962-45ed-95d9-bb4b5461ee14_5c9eca09-3cd0-452c-9442-e9ea773beb09_product-1.jpg",
@@ -7801,12 +7817,20 @@
       "PackagePath": "staticwebassets\\Client\\image\\products\\68d9785b-d18e-4c18-9d2e-c54ea13904a6_2e597ce1-c8ae-41a4-b95a-e62e4b04fcdc_harryPotter.jpg"
     },
     {
+      "Id": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\73abacc1-32f6-4471-8038-e26d948a3f75_38b0e1a9-5c6a-4ed8-8836-96558c24af52_5c9eca09-3cd0-452c-9442-e9ea773beb09_product-1.jpg",
+      "PackagePath": "staticwebassets\\Client\\image\\products\\73abacc1-32f6-4471-8038-e26d948a3f75_38b0e1a9-5c6a-4ed8-8836-96558c24af52_5c9eca09-3cd0-452c-9442-e9ea773beb09_product-1.jpg"
+    },
+    {
       "Id": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\77c4f444-02f3-40d8-8f21-26188d96378b_8e6be5d4-9950-4cb0-8abc-3b5ecfe99f79_b3687425-0b38-46b1-a736-b04435277c92_harryPotter.jpg",
       "PackagePath": "staticwebassets\\Client\\image\\products\\77c4f444-02f3-40d8-8f21-26188d96378b_8e6be5d4-9950-4cb0-8abc-3b5ecfe99f79_b3687425-0b38-46b1-a736-b04435277c92_harryPotter.jpg"
     },
     {
       "Id": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\80bfda8c-1a82-4745-a209-13f5dfbce002_2d8918e2-6769-4002-b0f2-9b15bf670d7e_harryPotter.jpg",
       "PackagePath": "staticwebassets\\Client\\image\\products\\80bfda8c-1a82-4745-a209-13f5dfbce002_2d8918e2-6769-4002-b0f2-9b15bf670d7e_harryPotter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\87512c2c-d64b-4a32-9546-e07ffedfda2e_2e597ce1-c8ae-41a4-b95a-e62e4b04fcdc_harryPotter.jpg",
+      "PackagePath": "staticwebassets\\Client\\image\\products\\87512c2c-d64b-4a32-9546-e07ffedfda2e_2e597ce1-c8ae-41a4-b95a-e62e4b04fcdc_harryPotter.jpg"
     },
     {
       "Id": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\8e6be5d4-9950-4cb0-8abc-3b5ecfe99f79_b3687425-0b38-46b1-a736-b04435277c92_harryPotter.jpg",
@@ -7853,8 +7877,16 @@
       "PackagePath": "staticwebassets\\Client\\image\\products\\c21a21b5-5b46-4904-8e4b-6b58e3e9eeee_harryPotter.jpg"
     },
     {
+      "Id": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\c94ad082-a677-4e3e-8c08-e2b994e616f9_2d8918e2-6769-4002-b0f2-9b15bf670d7e_harryPotter.jpg",
+      "PackagePath": "staticwebassets\\Client\\image\\products\\c94ad082-a677-4e3e-8c08-e2b994e616f9_2d8918e2-6769-4002-b0f2-9b15bf670d7e_harryPotter.jpg"
+    },
+    {
       "Id": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\cart-product-1.jpg",
       "PackagePath": "staticwebassets\\Client\\image\\products\\cart-product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\d201ff3f-344e-44b8-b5b2-ee9752094f60_1fcec11d-79cd-466d-b13e-b296192ee3da_cart-product-1.jpg",
+      "PackagePath": "staticwebassets\\Client\\image\\products\\d201ff3f-344e-44b8-b5b2-ee9752094f60_1fcec11d-79cd-466d-b13e-b296192ee3da_cart-product-1.jpg"
     },
     {
       "Id": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\d3eac10e-cc2a-4d47-aca5-8b89c6b447f6_harryPotter.jpg",
@@ -7879,6 +7911,10 @@
     {
       "Id": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\e64e4a2f-4123-4d57-a526-1a2ac0a40af8_1fcec11d-79cd-466d-b13e-b296192ee3da_cart-product-1.jpg",
       "PackagePath": "staticwebassets\\Client\\image\\products\\e64e4a2f-4123-4d57-a526-1a2ac0a40af8_1fcec11d-79cd-466d-b13e-b296192ee3da_cart-product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\efe03228-ec50-49bc-9a29-4a3cba7067a6_5c9eca09-3cd0-452c-9442-e9ea773beb09_product-1.jpg",
+      "PackagePath": "staticwebassets\\Client\\image\\products\\efe03228-ec50-49bc-9a29-4a3cba7067a6_5c9eca09-3cd0-452c-9442-e9ea773beb09_product-1.jpg"
     },
     {
       "Id": "C:\\Users\\nihatcha\\Desktop\\Pustak-project\\Pustak\\wwwroot\\Client\\image\\products\\f5cd9a78-3288-410e-84bc-002331cce12d_77c4f444-02f3-40d8-8f21-26188d96378b_8e6be5d4-9950-4cb0-8abc-3b5ecfe99f79_b3687425-0b38-46b1-a736-b04435277c92_harryPotter.jpg",
