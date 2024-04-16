@@ -122,16 +122,29 @@ namespace Pustak.Areas.Admin.Controllers
         {
             var slider = await _context.Slider.FirstOrDefaultAsync(x => x.Id == id);
 
-
             if (slider is null)
             {
                 return NotFound();
             }
-            slider.ImagePath.DeleteFile(_env.WebRootPath, "assets", "image", "sliderIcons");
+
+            slider.IsDeleted = true;
+            slider.ImagePath.DeleteFile(_env.WebRootPath, "Client", "image", "icon");
+
             _context.Slider.Remove(slider);
-
-
             return RedirectToAction("Index");
+
+            //var slider = await _context.Slider.FirstOrDefaultAsync(x => x.Id == id);
+            //if (slider is null)
+            //{
+            //    return NotFound();
+            //}
+
+            //slider.IsDeleted = true;
+            //await _context.SaveChangesAsync();
+
+            //var sliders = await _context.Categories.Include(x => x.Products).Where(x => !x.IsDeleted).ToListAsync();
+
+            //return PartialView("_CategoryPartial", sliders);
         }
     }
 }

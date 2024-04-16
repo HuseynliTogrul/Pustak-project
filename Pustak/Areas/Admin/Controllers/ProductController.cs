@@ -22,10 +22,10 @@ namespace Pustak.Areas.Admin.Controllers
         public async Task<IActionResult> Index()
         {
             List<Product> products = await _context.Products
+                                                   .Where(x => !x.IsDeleted)
                                                    .Include(x => x.ProductImages)
                                                    .Include(x => x.category)
                                                    .Include(x => x.Brand)
-                                                   .Where(x => !x.IsDeleted)
                                                    .ToListAsync();
             return View(products);
         }

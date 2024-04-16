@@ -39,7 +39,7 @@
                                             <td><img width="100" src="~/Client/image/products/@slider.ImagePath" /></td>
                                             <td>@slider.Name</td>
                                             <td>@slider.Description</td>
-                                            <td>@slider.Price</td>
+                                            @* <td>@slider.Price</td> *@
                                             <td><a class="btn btn-warning" asp-controller="Slider" asp-action="Update" asp-route-id="@slider.Id" asp-area="Admin">Edit</a></td>
                                             <td><a class="btn btn-danger" asp-controller="Slider" asp-action="Delete" asp-route-id="@slider.Id" asp-area="Admin">Delete</a></td>
                                         </tr>

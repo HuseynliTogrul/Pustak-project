@@ -1,10 +1,10 @@
 ﻿@model SliderUpdateDto
 
-<form enctype="multipart/form-data" method="post">
-        <img src ="~/assets/image/sliderIcons/@Model.ImagePath "style="width:150px; margin-top:30px" />
+<form enctype="multipart/form-data" method="post" class="ml-4 mr-4">
+        @* <img src ="~/assets/image/sliderIcons/@Model.ImagePath "style="width:150px; margin-top:30px" /> *@
     <div class="form-group">
         <label asp-for="File"></label>
-        <input class="form-control" asp-for="File" placeholder="Enter icon">
+        <input class="form-control p-1" asp-for="File" placeholder="Enter icon">
         <input type="hidden"  asp-for="ImagePath"/>
         <span asp-validation-for="File" class="text-danger"></span>
     </div>

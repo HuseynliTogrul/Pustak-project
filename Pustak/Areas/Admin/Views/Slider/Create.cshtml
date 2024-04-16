@@ -1,9 +1,9 @@
 ﻿@model SliderCreateDto
 
-<form enctype="multipart/form-data" method="post">
+<form enctype="multipart/form-data" method="post" class="ml-4 mr-4">
     <div class="form-group">
         <label asp-for="File"></label>
-        <input class="form-control" asp-for="File" placeholder="Enter icon">
+        <input class="form-control p-1" asp-for="File" placeholder="Enter icon">
         <span asp-validation-for="File" class="text-danger"></span>
     </div>
     <div class="form-group">

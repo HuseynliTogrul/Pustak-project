@@ -30416,6 +30416,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Client\image\favicon.ico))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Client\image\icon\01e257af-9f1f-4095-8b2c-0e115d50e463_1fcec11d-79cd-466d-b13e-b296192ee3da_cart-product-1.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustak</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustak</BasePath>
+      <RelativePath>Client/image/icon/01e257af-9f1f-4095-8b2c-0e115d50e463_1fcec11d-79cd-466d-b13e-b296192ee3da_cart-product-1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Client\image\icon\01e257af-9f1f-4095-8b2c-0e115d50e463_1fcec11d-79cd-466d-b13e-b296192ee3da_cart-product-1.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Client\image\icon\author-logo.png))">
       <SourceType>Package</SourceType>
       <SourceId>Pustak</SourceId>
@@ -31279,6 +31295,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Client\image\products\77c4f444-02f3-40d8-8f21-26188d96378b_8e6be5d4-9950-4cb0-8abc-3b5ecfe99f79_b3687425-0b38-46b1-a736-b04435277c92_harryPotter.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Client\image\products\7f7e0400-632a-4541-be10-ebd559a9c526_harryPotter.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Pustak</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Pustak</BasePath>
+      <RelativePath>Client/image/products/7f7e0400-632a-4541-be10-ebd559a9c526_harryPotter.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Client\image\products\7f7e0400-632a-4541-be10-ebd559a9c526_harryPotter.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Client\image\products\80bfda8c-1a82-4745-a209-13f5dfbce002_2d8918e2-6769-4002-b0f2-9b15bf670d7e_harryPotter.jpg))">
       <SourceType>Package</SourceType>
